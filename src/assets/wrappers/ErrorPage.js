@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -16,9 +16,8 @@ const Wrapper = styled.div`
   h3 {
     margin-bottom: 0.5rem;
   }
-
   p {
-    line-height: 1.5;
+    line-height: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     color: var(--grey-500);

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   background: var(--white);
@@ -34,6 +34,7 @@ const Wrapper = styled.nav`
   .active {
     color: var(--primary-500);
   }
+  /* active */
   @media (min-width: 768px) {
     .nav-center {
       flex-direction: row;

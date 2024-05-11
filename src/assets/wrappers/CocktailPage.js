@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   header {
     text-align: center;
     margin-bottom: 3rem;
     .btn {
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
     }
   }
   .img {
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   }
   .drink-data {
     margin-right: 0.5rem;
-    background: var(--primary-300);
+    background-color: var(--primary-300);
     padding: 0.25rem 0.5rem;
     border-radius: var(--borderRadius);
     color: var(--primary-700);
@@ -40,7 +40,7 @@ const Wrapper = styled.div`
       align-items: center;
     }
     .drink-info {
-      padding-top: 0;
+      padding: 0;
     }
   }
 `;
